@@ -59,25 +59,40 @@ let computerChoice = Math.random() * 5;
         console.log(`The computer chose ${computerChoice} and you chose ${userChoice}. Lizard poisons Spock, the computer wins.`);
     } else if (computerChoice === "spock" && userChoice === "rock") {
         console.log(`The computer chose ${computerChoice} and you chose ${userChoice}. Spock vaporises rock, computer wins`);
-    } else if (computerChoice === "spock" && userChoice === "paper") {
-        console.log(`The computer chose ${computerChoice} and you chose ${userChoice}. Paper disproves Spock, you lost.`);
-    } else if (computerChoice === "spock" && userChoice === "scissors") {
-        (`The computer chose ${computerChoice} and you chose ${userChoice}. Spock smashes scissors, you lose.`);
-    } else if (computerChoice === "spock" && userChoice === "lizard") {
-        console.log(`The computer chose ${computerChoice} and you chose ${userChoice}. Lizard poisons Spock, you win`);
-    }
+ }
+ }       
+     
+ 
 
-}
+ 
+//         Joseph Grainger  9:11 AM
+// r u guys here
+// 9:11
+// im in th breakout room
+// ￼￼
+// Ronnie  9:13 AM
+// ok
+// 9:13
+// go
+// 9:13
+// got the password ?
+//     } else if (computerChoice === "spock" && userChoice === "paper") {
+//         console.log(`The computer chose ${computerthe aMath random stuff hereog(`The computer chose ${computerChoice} and you chose ${userChoice}. Spock smashes scissors,`);
+//     } else if (computerChoice === "spock" && userChoice === "lizard") {
+//         console.log(`The computer chose ${computerChoice} and you chose ${userChoice}. Lizard poisons Spock, you win`);
+//     }
+
+// }
             
-lizardSpock("spock");     
-console.log("test"); 
+// lizardSpock("spock");     
+// console.log("test"); 
             
 
-// getElementById
+// // getElementById
 
 
 
-// listening to click events
+// // listening to click events
 
 
 
@@ -95,6 +110,40 @@ console.log("test");
 // Spock vaporises rock,
 // and as it always has,
 // rock crushes scissors.
+
+
+
+       
+//         Joseph Grainger  9:11 AM
+// r u guys here
+// 9:11
+// im in th breakout room
+// ￼￼
+// Ronnie  9:13 AM
+// ok
+// 9:13
+// go
+// 9:13
+// got the password ?
+//     } else if (computerChoice === "spock" && userChoice === "paper") {
+//         console.log(`The computer chose ${computerthe aMath random stuff hereog(`The computer chose ${computerChoice} and you chose ${userChoice}. Spock smashes scissors,`);
+//     } else if (computerChoice === "spock" && userChoice === "lizard") {
+//         console.log(`The computer chose ${computerChoice} and you chose ${userChoice}. Lizard poisons Spock, you win`);
+//     }
+
+// }
+            
+// lizardSpock("spock");     
+// console.log("test"); 
+            
+
+// // getElementById
+
+
+
+// // listening to click events
+
+
 
 
 
