@@ -2,14 +2,8 @@ const computerChoiceDisplay = document.getElementById('computer-choice')
 const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('result')
 const possibleChoices = document.querySelectorAll('button')
-<<<<<<< HEAD
 let userChoice;
 let computerChoice;
-=======
-let userChoice
-let computerChoice
-
->>>>>>> 5fc1c5899f84ff95439ad100da399ab15a4ab74c
 possibleChoices.forEach(possibleChoices =>addEventListener('click', (e) =>{
     userChoice = e.target.id
     userChoiceDisplay.innerHTML = userChoice
@@ -19,7 +13,6 @@ possibleChoices.forEach(possibleChoices =>addEventListener('click', (e) =>{
 
 function generateComputerChoice(){
     const randomNumber = Math.floor (Math.random() *  3) +1  //possibleChoices.length
-<<<<<<< HEAD
 if (randomNumber === 1){
     computerChoice = 'rock'
  }
@@ -32,23 +25,6 @@ if (randomNumber === 1){
  computerChoiceDisplay.innerHTML = computerChoice
 }
 function getResult() {
-=======
-
-
-if (randomNumber === 1){
-    computerChoice = 'rock'
- }   
- if (randomNumber === 2){
-    computerChoice = 'scissors'
- }   
- if (randomNumber === 3){
-    computerChoice = 'paper'
- }   
- computerChoiceDisplay.innerHTML = computerChoice
-}
-
-function getResult(){
->>>>>>> 5fc1c5899f84ff95439ad100da399ab15a4ab74c
     if (computerChoice === userChoice){
         result = 'its a draw!'
     }
@@ -70,11 +46,5 @@ function getResult(){
     if(computerChoice === 'scissors' && userChoice ==="paper"){
         result = 'you lost motherfucker!!'
      }
-<<<<<<< HEAD
      resultDisplay.innerHTML = result
-=======
-
-     resultDisplay.innerHTML = result
-    
->>>>>>> 5fc1c5899f84ff95439ad100da399ab15a4ab74c
 }
