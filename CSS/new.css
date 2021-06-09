@@ -4,19 +4,46 @@ body {
     text-align: center;
     margin-top: 150px;
     display: flex;
+    flex-direction: column;
     background-image: url(../images/rock-paper-scissor-ft-1.jpg);
     background-size: 500px;
+    height: 100%;
+}
 
+.navbar {
+    border: 15px solid orange;
+    background-color: paleturquoise;
+    width: 15%;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 0px;
+    align-items: center;
+}
+
+ul li {
+  list-style-type: square; 
+  color: rebeccapurple;
 
 }
 
-div {
+ul li a {
+    color: rebeccapurple;
+    text-decoration: none;
+    font-weight: bold;;
+    margin: 20px 0px; 
+    /* WHY does this margin not work?? we need more space between the 2 links, right??*/
+    background-color:palegoldenrod;
+}
+
+.main-div {
    border: 42px solid palevioletred;
    background-color: palegreen;
    width: 40%;
    height: 50%;
-   margin: 40px;
+   margin: 40px auto;
    padding: 40px;
+   /* text-align: center;
+   justify-content: center; */
 }
 
 h2 {
