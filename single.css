@@ -21,8 +21,11 @@ body {
 }
 
 ul li {
-  list-style-type: square;
+  list-style: none;
   color: rebeccapurple;
+  line-height:170%;
+  padding-right: 15%;
+ 
 }
 
 ul li a {
