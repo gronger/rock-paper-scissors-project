@@ -1,7 +1,7 @@
-const computerChoiceDisplay = document.getElementById('computer-choice')
-const userChoiceDisplay = document.getElementById('user-choice')
-const resultDisplay = document.getElementById('result')
-const possibleChoices = document.querySelectorAll('button')
+const computerChoiceDisplay = document.getElementById('computer-choice');
+const userChoiceDisplay = document.getElementById('user-choice');
+const resultDisplay = document.getElementById('result');
+const possibleChoices = document.querySelectorAll('button');
 let userChoice;
 let computerChoice;
 possibleChoices.forEach(possibleChoices =>addEventListener('click', (e) =>{
@@ -19,8 +19,9 @@ ROCK, PAPER, SCISSORS, LIZARD, SPOCK
 ********************************* */
 
 
-function generateComputerChoice(){
-const randomNumber = Math.floor (Math.random() *  5) 
+function generateComputerChoice() {
+    let randomNumber = Math.floor(Math.random() *  5);
+
     if (randomNumber === 1) {
     computerChoice = "rock";
     } 
@@ -36,12 +37,14 @@ const randomNumber = Math.floor (Math.random() *  5)
     else {
     randomNumber = "spock";
     }
-     computerChoiceDisplay.innerHTML = computerChoice
+     computerChoiceDisplay.innerHTML = computerChoice;
     }
 
     //=================
 
     function getResult(){
+
+    // computerChoice();
 
     if (computerChoice === userChoice) {
       result = 'its a draw!'
@@ -108,7 +111,7 @@ const randomNumber = Math.floor (Math.random() *  5)
      if (computerChoice === "spock" && userChoice === "lizard") {
         result = 'you  !!'
     }
-resultDisplay.innerHTML = result
+resultDisplay.innerHTML = result;
 }
 
             
