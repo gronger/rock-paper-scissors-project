@@ -31,8 +31,7 @@ git checkout ------- see how many branches u have
 we alll work on our own branches
 and then PULL request when finished 
 then someone check pull request
-( everyone goes to one branch )
-
+gi
 
 ## COMBINING HTML, CSS AND JS
 
