@@ -60,7 +60,9 @@ let computerChoice = Math.random() * 5;
     } else if (computerChoice === "spock" && userChoice === "rock") {
         console.log(`The computer chose ${computerChoice} and you chose ${userChoice}. Spock vaporises rock, computer wins`);
     } else if (computerChoice === "spock" && userChoice === "paper") {
-        console.log(`The computer chose ${computerthe aMath random stuff hereog(`The computer chose ${computerChoice} and you chose ${userChoice}. Spock smashes scissors,`);
+        console.log(`The computer chose ${computerChoice} and you chose ${userChoice}. Paper disproves Spock, you lost.`);
+    } else if (computerChoice === "spock" && userChoice === "scissors") {
+        (`The computer chose ${computerChoice} and you chose ${userChoice}. Spock smashes scissors, you lose.`);
     } else if (computerChoice === "spock" && userChoice === "lizard") {
         console.log(`The computer chose ${computerChoice} and you chose ${userChoice}. Lizard poisons Spock, you win`);
     }

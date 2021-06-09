@@ -180,3 +180,21 @@ function game(userChoice) {
 main();
 
 
+
+
+## CSS PLAN
+
+centered / justified ????
+
+buttons or hands ??
+
+
+
+git add 
+git commit -m "blsrn"
+git push
+
+then when others make changes
+: git pull
+
+(all on master branch . git checkout master)
