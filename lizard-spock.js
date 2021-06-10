@@ -61,55 +61,55 @@ function generateComputerChoice() {
         result = 'you lost!!'
     } 
      if (computerChoice === "rock" && userChoice === "spock") {
-        result = 'you  !!'
+        result = 'you win !!'
     } 
      if (computerChoice === "paper" && userChoice === "rock") {
-        result = 'you  !!'
+        result = 'you lost  !!'
     } 
      if (computerChoice === "paper" && userChoice === "scissors") {
-        result = 'you  !!'
+        result = 'you win !!'
     } 
      if (computerChoice === "paper" && userChoice === "lizard") {
-        result = 'you  !!'
+        result = 'you win !!'
     } 
      if (computerChoice === "paper" && userChoice === "spock") {
-        result = 'you  !!'
+        result = 'you  lost !!'
     } 
      if (computerChoice === "scissors" && userChoice === "rock") {
-        result = 'you  !!'  
+        result = 'you win !!'  
     } 
      if (computerChoice === "scissors" && userChoice === "paper") {
-        result = 'you  !!'
+        result = 'you lost !!'
     } 
      if (computerChoice === "scissors" && userChoice === "lizard") {
-        result = 'you  !!'
+        result = 'you lost !!'
     } 
      if (computerChoice === "scissors" && userChoice === "spock") {
         result = 'you  !!'
     } 
      if (computerChoice === "lizard" && userChoice === "rock") {
-        result = 'you  !!'
+        result = 'you win !!'
     } 
      if (computerChoice === "lizard" && userChoice === "paper") {
-        result = 'you  !!'
+        result = 'you  lost !!'
     } 
      if (computerChoice === "lizard" && userChoice === "scissors") {
-        result = 'you  !!'
+        result = 'you win !!'
     } 
      if (computerChoice === "lizard" && userChoice === "spock") {
-        result = 'you  !!'
+        result = 'you lost  !!'
     } 
      if (computerChoice === "spock" && userChoice === "rock") {
-        result = 'you  !!'
+        result = 'you  lost your wallet !!'
     } 
      if (computerChoice === "spock" && userChoice === "paper") {
-        result = 'you  !!'
+        result = 'you win  !!'
     } 
      if (computerChoice === "spock" && userChoice === "scissors") {
-        result = 'you  !!'
+        result = 'you lost  !!'
     } 
      if (computerChoice === "spock" && userChoice === "lizard") {
-        result = 'you  !!'
+        result = 'you win !!'
     }
 resultDisplay.innerHTML = result;
 }
