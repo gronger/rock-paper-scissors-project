@@ -20,12 +20,18 @@ body {
   align-items: center;
 }
 
+a:hover{
+    color: deeppink;
+    font-size: larger;
+    
+}
+
+
 ul li {
   list-style: none;
   color: rebeccapurple;
-  line-height:170%;
+  line-height: 170%;
   padding-right: 15%;
- 
 }
 
 ul li a {
@@ -62,4 +68,9 @@ button {
   color: yellow;
   background-color: green;
   letter-spacing: 5px;
+}
+
+.score {
+  display: flex;
+  justify-content: space-between;
 }
